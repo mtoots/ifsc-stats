@@ -225,8 +225,8 @@ for(yr in years){
   }
 }
 
-#saveRDS(ifsc, "ifsc_all.RDs")
-#saveRDS(ifsc_heat, "ifsc_heat_all.RDs")
+#saveRDS(ifsc, "dat/ifsc_all.RDs")
+#saveRDS(ifsc_heat, "dat/ifsc_heat_all.RDs")
 
 
 #---- KNOWN ERRORS: ----
@@ -289,5 +289,5 @@ for(yr in years) {
 rankings <- rankings %>% 
   mutate(name = str_c(first, last, sep = " "))
 rankings <- rankings %>% mutate(year = ifelse(year == 2099, 1999, year))
-#saveRDS(rankings, "ifsc_rankings-until_Hachioji.RDs")
+#saveRDS(rankings, "dat/ifsc_rankings-until_Hachioji.RDs")
 

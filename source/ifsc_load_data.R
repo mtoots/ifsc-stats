@@ -160,4 +160,4 @@ df_flash_prop_by_year <- heat_long %>%
             sex = first(sex)) %>%
   mutate(flash_prob = flashes / boulders) 
 
-#saveRDS(df_flash_prop_by_year, "ifsc/df_flash_prop_by_year.RDs")
+#saveRDS(df_flash_prop_by_year, "dat/df_flash_prop_by_year.RDs")
