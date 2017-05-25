@@ -1,0 +1,10 @@
+name: ifsc-flash
+title: ifsc-flash
+account: mtoots
+server: shinyapps.io
+appId: 183143
+bundleId: 840207
+url: https://mtoots.shinyapps.io/ifsc-flash/
+when: 1495695958.39
+asMultiple: FALSE
+asStatic: FALSE
