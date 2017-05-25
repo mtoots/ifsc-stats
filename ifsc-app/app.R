@@ -4,8 +4,8 @@ library(plotly)
 # library(scales)
 
 '%|%' <- function(a="",b="") paste0(a,b)
-df_flash_prop_by_year <- read_rds("df_flash_prop_by_year.RDs")
-rankings <- readRDS("ifsc_rankings_until_Hachioji.RDs")
+df_flash_prop_by_year <- read_rds("../dat/df_flash_prop_by_year.RDs")
+rankings <- readRDS("../dat/ifsc_rankings_until_Hachioji.RDs")
 
 tmp_df <- df_flash_prop_by_year %>%
   group_by(name) %>%
